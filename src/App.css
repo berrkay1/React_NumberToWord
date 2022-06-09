@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  height: 95vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-sizing: border-box;
+}
+.app {
+  
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  background: linear-gradient(90deg, #03be70, #ec9197) ;
+  border-radius: 7px;
 }
 
-.App-link {
-  color: #61dafb;
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form input{
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  outline: 0;
+  border: 2px solid grey;
+}
+
+.form button{
+  width: 5rem;
+  height: 2.7rem;
+  font-size: 16px;
+  padding: 10px 15px;
+  margin-left: 20px;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+.form .add{
+  background-color: #1bc27c;
+}
+.form .delete{
+  background-color: #f2a9ae;
+}
+
+.textList{
+font-size: 18px;
 }
